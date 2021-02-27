@@ -1,4 +1,59 @@
-h1 {
-    margin: 15px;
-    font-style: italic;
+* {
+    font-family: Comic Sans MS;
+}
+
+body {
+    background-image: url('background.jpg');
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.footer{
+    width: 2130px;
+    height: 620px;
+    white-space: nowrap;
+    background-image: url('background_center_block.jpg');
+    margin:0%;
+    padding: 0;
+    position:fixed;
+}
+
+.footer h1 {
+    padding: 100px;
+    padding-left: 900px;
+    margin:5px;
+    height: 400px;
+    margin-bottom: 30%;
+}
+
+#navbar button a {
+    text-decoration: none;
+    color:black;
+    padding: 25px;
+    margin: 10px;
+    font-size:20px;
+}
+#navbar button {
+    overflow: hidden;
+    background-color: antiquewhite;
+}
+
+#navbar button a:hover {
+    background-color: gold;
+    transition: 1.3s;
+    -ms-transition: all 1.3s ease ;
+    -webkit-transition: all 1.3s ease ;
+    -moz-transition: all 1.3s ease ;
+    -o-transition: all 1.3s ease ;
+}
+.sticky {
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+#navbar {
+    background-color: black;
+    padding: 10px;
 }
